@@ -1,0 +1,51 @@
+body {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       height: 100vh;
+       margin: 0;
+   }
+   table {
+       
+       width: 100%; 
+       border-collapse: collapse;
+       box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+   }
+   th, td {
+       padding: 10px;
+       text-align: center;
+       border: 2px solid #2b052e;
+   }
+   thead {
+       background-color: #b31ac4; 
+       color: #fff; 
+   }
+   h1 {
+       color: #4c055b; 
+   }
+   input[type="search"] {
+       padding: 5px;
+       border: 2px solid #4c055b;
+   }
+   button {
+       padding: 5px 10px;
+       background-color: #9632b5; 
+       color: #fff; 
+       border: 1px solid #4c055b;
+       cursor: pointer;
+   }
+   .table-container {
+   width: 80%; 
+   margin: 20px auto; 
+}
+/* Style pour le bouton "Add" */
+#addButton {
+   float: right; /* Positionnez le bouton à droite */
+   margin-top: 10px; 
+   background-color: #9632b5;
+   color: #fff;
+   border: 1px solid #4c055b;
+   cursor: pointer;
+   padding: 5px 10px;
+}
+
